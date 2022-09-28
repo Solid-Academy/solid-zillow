@@ -1,8 +1,17 @@
 import './App.css';
+import Header from './components/header/Header';
+import {Routes,Route} from 'react-router-dom';
+
 
 function App() {
   return (
-    <h1>Hello Solid Zillow. Good Luck!</h1>
+    <div className='App'>
+      <Header/>
+
+      <Routes>
+        
+      </Routes>
+    </div>
   );
 }
 
