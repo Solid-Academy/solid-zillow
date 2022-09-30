@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD
 import "./i18next";
-=======
 import { BrowserRouter } from 'react-router-dom';
->>>>>>> 3a8da7e63fd046abf31ac7eb9d355f14aed9ea7a
+import "./firebase/firebase-config"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
