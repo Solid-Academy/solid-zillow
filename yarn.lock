@@ -1991,6 +1991,9 @@
     source-map "^0.7.3"
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> develop
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -2043,7 +2046,11 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
+<<<<<<< HEAD
+
 =======
+=======
+>>>>>>> develop
 "@reduxjs/toolkit@^1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.8.5.tgz#c14bece03ee08be88467f22dc0ecf9cf875527cd"
@@ -2485,6 +2492,11 @@
   version "18.7.23"
   resolved "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz"
   integrity sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==
+
+"@types/node@>=12.12.47", "@types/node@>=13.7.0":
+  version "18.8.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.8.2.tgz#17d42c6322d917764dd3d2d3a10d7884925de067"
+  integrity sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -9819,7 +9831,11 @@ write-file-atomic@^3.0.0:
 
 ws@>=7.4.6, ws@^8.4.2:
   version "8.9.0"
+<<<<<<< HEAD
+  resolved "https://registry.npmjs.org/ws/-/ws-8.9.0.tgz"
+=======
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.9.0.tgz#2a994bb67144be1b53fe2d23c53c028adeb7f45e"
+>>>>>>> develop
   integrity sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==
 
 ws@^7.4.6:
@@ -9829,12 +9845,15 @@ ws@^7.4.6:
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 ws@^8.4.2:
   version "8.9.0"
   resolved "https://registry.npmjs.org/ws/-/ws-8.9.0.tgz"
   integrity sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==
 
 >>>>>>> 73e5738c3fdb9b16603c91fd0f4a84edf6eb6f47
+>>>>>>> develop
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-3.0.0.tgz"

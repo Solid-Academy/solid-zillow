@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./i18next";
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import './firebase'
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
