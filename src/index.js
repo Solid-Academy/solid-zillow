@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./i18next";
 import { Provider } from "react-redux";
-import { store } from "./redux/index.js";
+import { store } from "./redux/index";
 import { BrowserRouter } from "react-router-dom";
 import "./firebase";
 
