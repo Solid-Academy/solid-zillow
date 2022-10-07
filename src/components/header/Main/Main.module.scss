@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;500&display=swap');
+.container {
+    background-color: rgb(249, 249, 251);
+
+    .CardPage {
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .card {
+        border: none;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+        transition: all 200ms ease-in-out 0s;
+        flex-shrink: 0;
+        padding: 24px;
+        text-align: center;
+        -webkit-box-flex: 2;
+        flex-grow: 2;
+        border-radius: 4px;
+        margin: 10px 0px;
+        height: 550px;
+        border-color: rgb(209, 209, 213) rgb(209, 209, 213) rgb(0, 106, 255);
+        border-image: initial;
+        box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
+    }
+
+    .card:hover {
+        border: 1px solid rgb(139, 163, 220);
+        transform: scale(1.1);
+    }
+
+    .homeImg {
+        height: 190px;
+        width: 300px;
+    }
+
+    .title {
+        color: rgb(42, 42, 51);
+        -webkit-font-smoothing: antialiased;
+        text-transform: none;
+        font-family: "Ivar Headline", "Ivar Headline Subset", "Adjusted Times", "Adjusted Times New Roman", "Times New Roman", serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        margin-bottom: 20px;
+        color: rgb(42, 42, 51);
+        -webkit-font-smoothing: antialiased;
+        text-transform: none;
+        font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .button {
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(0, 106, 255);
+        color: rgb(0, 106, 255);
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;        
+        box-sizing: border-box;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 9px 16px;
+        appearance: none;
+        transition-property: background-color, border-color, color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        -webkit-font-smoothing: antialiased;
+        text-transform: none;
+        font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: visible;
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:1000px) {
+    .Card {
+     height:400px;
+     width:200px;
+    }
+}
