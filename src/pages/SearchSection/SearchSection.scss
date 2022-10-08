@@ -1,0 +1,131 @@
+.searchBlock {
+    background-color: aqua;
+    width: 90%;
+    margin: 0 auto;
+    height: 50vh;
+    background-image: url(https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/08/ZG_ZPA_08_21_Americana_ExtFront_1081_4936px_desktopWebp2x-1-scaled.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px;
+    margin-top: 5%;
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    input {
+        width: 60%;
+        margin: auto;
+        height: 70px;
+        margin-left: 20%;
+        outline: none;
+        margin-top: 5%;
+
+    }
+
+    input:hover {
+        border: solid 2px rgb(0, 132, 255);
+        border-radius: 2px;
+    }
+
+    .inputGroup img {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+
+
+    }
+
+    .btn_search {
+        border: none;
+        position: relative;
+        right: 60px;
+        top: 20px;
+        height: 50px;
+
+    }
+
+    .inputGroup {
+        margin-left: 30%;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .searchBlock {
+        width: 80%;
+        height: 500px;
+
+    }
+
+    .searchBlock input {
+        height: 60px;
+        width: 65%;
+        margin-top: 30%;
+    }
+
+    h1 {
+        position: relative;
+        top: 10%;
+    }
+
+}
+
+@media (max-width:522px) {
+    .btn_search {
+        left: 240px;
+    }
+
+    .inputGroup input {
+        position: relative;
+        top: 75px;
+        width: 250px;
+        right: 25px;
+    }
+
+    h1 {
+        position: relative;
+        top: 100px;
+    }
+}
+
+
+@media(max-width:400px) {
+    .btn_search {
+        left: 170px;
+    }
+
+    .inputGroup input {
+        position: relative;
+        top: 75px;
+        width: 200px;
+        right: 25px;
+    }
+
+    h1 {
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media(max-width:360px) {
+    .btn_search {
+        left: 165px;
+    }
+
+    .inputGroup input {
+        position: relative;
+        top: 75px;
+        width: 200px;
+        right: 25px;
+    }
+
+    h1 {
+        position: relative;
+        top: 100px;
+    }
+}
