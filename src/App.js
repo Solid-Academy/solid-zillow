@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<PublicRoute Component={<HomePage />} />} />
-        <Route path="/dashboard" element={<PrivateRoute Component={<Dashboard />} />} />
+        <Route exact path="/" element={<PublicRoute Component={HomePage} />} />
+        <Route path="/dashboard" element={<PrivateRoute Component={Dashboard} />} />
       </Routes>
     </div>
   );
