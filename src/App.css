@@ -12,10 +12,42 @@
   display: none;
 }
 
+#container :hover {
+  transition-delay: 0.1s;
+}
+
 #container :hover #next {
   display: block;
 }
 
+#container :hover #arrL {
+  display: block;
+  width: 40px;
+  position: absolute;
+  right: 5px;
+  transition-delay: 0.1s;
+}
+
 #container :hover #prev {
   display: block;
+}
+
+#container :hover #arrR {
+  display: block;
+  width: 40px;
+  position: absolute;
+  left: 5px;
+  /* transition-delay: 1s; */
+}
+
+
+#container {
+  width: 100%;
+  margin: 100px auto;
+}
+
+#container :hover {
+  width: 99%;
+  margin: 0 auto;
+    transition-delay: 1s;
 }
