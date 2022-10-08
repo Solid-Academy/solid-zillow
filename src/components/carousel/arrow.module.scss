@@ -1,0 +1,23 @@
+.arrowR {
+  position: absolute;
+  left: -25px;
+  bottom: 100px;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+}
+.arrowL {
+  position: absolute;
+  bottom: 95px;
+  right: -25px;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+}
+.transition {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}

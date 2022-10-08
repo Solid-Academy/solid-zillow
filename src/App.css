@@ -1,5 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#next {
+  display: none;
+}
+
+#prev {
+  display: none;
+}
+
+#container :hover #next {
+  display: block;
+}
+
+#container :hover #prev {
+  display: block;
 }

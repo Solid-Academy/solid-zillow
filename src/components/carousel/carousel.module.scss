@@ -1,0 +1,33 @@
+.wrapper {
+  height: 250px;
+  width: 300px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+#square {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 5px 5px rgb(201, 201, 201);
+  box-shadow: 10px 5px 5px rgb(109, 109, 109), 10px 5px 5px rgb(201, 201, 201);
+  flex-flow: wrap;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.wrapper {
+  img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.title {
+  border-radius: 10px 10px 5px 5px;
+  background-color: white;
+  height: 100px;
+  margin: 0 auto;
+}

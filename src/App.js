@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" element={<PublicRoute Component={HomePage} />} />
+        <Route path="/" element={<PublicRoute Component={HomePage} />} />
         <Route path="/dashboard" element={<PrivateRoute Component={Dashboard} />} />
       </Routes>
     </div>
