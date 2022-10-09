@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import array from "../carousel/slider";
 import SliderCard from "../carousel/SliderCard";
-import scss from "./dashboard.module.scss";
 import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
 
@@ -20,7 +19,7 @@ function Dashboard() {
   return (
     <>
       <div id="container">
-        <div className={scss.container}>
+        <div>
           <Slider {...settings}>
             {array.map((item) => (
               <SliderCard
