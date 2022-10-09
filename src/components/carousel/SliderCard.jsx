@@ -8,7 +8,7 @@ function SliderCard({ img, id, price, description, descriptionUnder }) {
         <div className={scss.title}>
           <div className={scss.price}>{price}</div>
           <div>{description}</div>
-          <div>{descriptionUnder}</div>
+          <div className={scss.descriptionUnder}>{descriptionUnder}</div>
         </div>
       </div>
     </>

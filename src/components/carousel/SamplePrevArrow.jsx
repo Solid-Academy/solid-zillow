@@ -5,7 +5,7 @@ function SamplePrevArrow(props) {
   return (
     <>
       <div id="prev" onClick={onClick}>
-        <img id="arrR" className={scss.arrowR} src="imegs/arrowLeft.jpg" alt="LikesPigS" />
+        <img id="arrR" className={scss.arrowR} src="imegs/1243939.png" alt="LikesPigS" />
       </div>
     </>
   );

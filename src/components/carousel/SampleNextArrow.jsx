@@ -5,7 +5,7 @@ function SampleNextArrow(props) {
   return (
     <>
       <div id="next" onClick={onClick}>
-        <img id="arrL" className={scss.arrowL} src="imegs/arrowRight.png" alt="imgicoins" />
+        <img id="arrL" className={scss.arrowL} src="imegs/1244011.png" alt="imgicoins" />
       </div>
     </>
   );
