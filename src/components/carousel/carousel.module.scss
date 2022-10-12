@@ -1,7 +1,24 @@
+.arrowR {
+  position: absolute;
+  left: 25px;
+  bottom: 120px;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}
+.arrowL {
+  position: absolute;
+  bottom: 120px;
+  right: 25px;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}
+
 .wrapper {
-  border: 1px solid black;
+  border: 1px solid #878787;
   height: 250px;
-  width: 300px;
+  width: 325px;
   margin-top: 60px;
   border-radius: 10px;
 }
@@ -9,8 +26,8 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  box-shadow: 10px 5px 5px rgb(201, 201, 201);
-  box-shadow: 10px 5px 5px rgb(109, 109, 109), 10px 5px 5px rgb(201, 201, 201);
+  box-shadow: 0px 5px 5px rgb(201, 201, 201);
+  box-shadow: 0px 5px 5px rgb(109, 109, 109), 0px 5px 5px rgb(201, 201, 201);
   flex-flow: wrap;
   height: 100%;
   border-radius: 10px;
@@ -40,4 +57,16 @@
 }
 .descriptionUnder {
   opacity: 0.6;
+}
+.imgLike {
+  width: 40px;
+  margin-left: 280px;
+  position: absolute;
+}
+.desc {
+  display: flex;
+  justify-content: space-between;
+}
+.opacity{
+  opacity: 0.5;
 }

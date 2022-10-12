@@ -14,11 +14,11 @@
 
 #container {
   height: 60vh;
-  width: 96%;
+  width: 99%;
 }
 
 #container:hover {
-  width: 96%;
+  width: 99%;
 }
 
 #container :hover #next {
@@ -29,9 +29,8 @@
   display: block;
   position: absolute;
   right: 0px;
-  border: 0.5px solid black;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 100%;
   padding: 8px;
 }
 
@@ -43,9 +42,8 @@
   display: block;
   position: absolute;
   left: 0px;
-  border: 0.5px solid black;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 100%;
   padding: 8px;
 }
 
