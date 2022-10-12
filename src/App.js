@@ -1,14 +1,16 @@
 import "./App.css";
-import Header from "./components/header/Header";
-import { Routes } from "react-router-dom";
-import Main from "./components/header/Main/Main";
+import { Route, Routes } from "react-router-dom";
+import { PrivateRoute, PublicRoute } from "./routes";
+import Dashboard from "./components/dashboard/Dashboard";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Routes> </Routes>
+      <Routes>
+        <Route exact path="/" element={<PublicRoute Component={HomePage} />} />
+        <Route path="/dashboard" element={<PrivateRoute Component={Dashboard} />} />
+      </Routes>
     </div>
   );
 }

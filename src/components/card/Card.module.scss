@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;500&display=swap');
+
 .container {
     background-color: rgb(249, 249, 251);
+    height: 750px;
 
     .CardPage {
         display: flex;
         justify-content: space-between;
     }
-    a{
+
+    a {
         text-decoration: none;
+    }
+
+    .buyhome {
+        display: flex;
+        justify-content: space-between;
+        margin:0 auto;
     }
 
     .card {
@@ -22,16 +31,22 @@
         -webkit-box-flex: 2;
         flex-grow: 2;
         border-radius: 4px;
-        margin: 10px 0px;
         height: 550px;
         border-color: rgb(209, 209, 213) rgb(209, 209, 213) rgb(0, 106, 255);
         border-image: initial;
         box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
+        margin-top: 60px;
     }
 
     .card:hover {
         border: 1px solid rgb(139, 163, 220);
         transform: scale(1.1);
+        transition: 0.3s;
+
+        .button {
+            background-color: rgb(0, 106, 255);
+            color: rgb(255, 255, 255);
+        }
     }
 
     .homeImg {
@@ -68,7 +83,7 @@
         color: rgb(0, 106, 255);
         cursor: pointer;
         text-decoration: none;
-        text-align: center;        
+        text-align: center;
         box-sizing: border-box;
         border: 1px solid;
         border-radius: 4px;
@@ -88,9 +103,107 @@
     }
 
 }
+
+@media(max-width:1030px) {
+    .CardPage {
+        display: flex;
+        flex-direction: column;
+
+        .card {
+            height: 390px;
+            margin: 10px 0;
+        }
+    }
+}
+
 @media(max-width:1000px) {
-    .Card {
-     height:400px;
-     width:200px;
+    .CardPage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .card {
+            display: flex;
+            align-items: center;
+            height: 290px;
+            width: 650px;
+        }
+    }
+}
+
+@media(max-width:800px) {
+    .CardPage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .card {
+            display: flex;
+            align-items: center;
+            height: 290px;
+            width: 650px;
+        }
+    }
+}
+
+@media(max-width:680px) {
+    .CardPage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .card {
+            display: flex;
+            align-items: center;
+            height: 290px;
+            width: 630px;
+        }
+    }
+}
+
+@media(max-width:640px) {
+    .CardPage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .card {
+            display: flex;
+            align-items: center;
+            height: 290px;
+            width: 540px;
+        }
+    }
+}
+
+@media(max-width:590px) {
+    .CardPage {
+        display: flex;
+        flex-direction: column;
+
+        .card {
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-flow: row wrap;
+            height: 440px;
+            width: 530px;
+
+            .homeImg {
+                height: 190px;
+                width: 380px;
+            }
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .CardPage {
+        display: flex;
+        flex-direction: column;
+
+        .card {
+            height: 440px;
+            width: 470px;
+        }
     }
 }
