@@ -8,7 +8,7 @@ export default function Footer() {
   const { t } = useTranslation();
   return (
     <footer>
-      <div className={css.container}>
+      <div className="container">
         <div className={css.FooterLinks}>
           <div className={css.navigateLinks}>
             {FooterLinks.map((items) => (
