@@ -3,7 +3,7 @@
 .container {
     background-color: rgb(249, 249, 251);
     height: 750px;
-
+    width:100%;
     .CardPage {
         display: flex;
         justify-content: space-between;
@@ -16,7 +16,6 @@
     .buyhome {
         display: flex;
         justify-content: space-between;
-        margin:0 auto;
     }
 
     .card {
@@ -31,11 +30,12 @@
         -webkit-box-flex: 2;
         flex-grow: 2;
         border-radius: 4px;
-        height: 550px;
+        height: 540px;
         border-color: rgb(209, 209, 213) rgb(209, 209, 213) rgb(0, 106, 255);
         border-image: initial;
         box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
-        margin-top: 60px;
+        width:343px;
+        margin: 60px 25px 0px 0px;
     }
 
     .card:hover {
