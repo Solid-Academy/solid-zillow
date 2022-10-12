@@ -1,4 +1,3 @@
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { PrivateRoute, PublicRoute } from "./routes";
 import Dashboard from "./components/dashboard/Dashboard";
