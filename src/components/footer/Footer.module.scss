@@ -1,3 +1,6 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
   .navigate {
     border-bottom: 1px solid rgb(163, 163, 163);
     display: flex;
@@ -92,7 +95,7 @@
     }
     .downloader_images img {
       width: 100px;
-      margin: 5px;
+      margin: 5px ;
     }
     .downloader_images {
       text-align: center;
@@ -148,7 +151,8 @@
       }
     }
   }
-footer > img {
+}
+footer .container > img {
   margin-top: 60px;
   width: 100%;
 }

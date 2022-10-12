@@ -8,7 +8,7 @@ export default function Footer() {
   const { t } = useTranslation();
   return (
     <footer>
-      <div className="container">
+      <div className={css.container}>
         <div className={css.FooterLinks}>
           <div className={css.navigateLinks}>
             {FooterLinks.map((items) => (
@@ -44,7 +44,15 @@ export default function Footer() {
             <p>{t("footer.DRE")}</p>
           </div>
           <div className="contact">
-            <Link to="#" style={{ display: "flex", justifyContent: "center" }}>
+            <Link
+              to="#"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                color: "#7a48d6",
+                fontSize: "14px"
+              }}
+            >
               {t("footer.contactZillow")}
             </Link>
           </div>
@@ -78,8 +86,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <img src="./images/footer/footer-art.svg" alt="" />
       </div>
-      <img src="./images/footer/footer-art.svg" alt="" />
     </footer>
   );
 }
