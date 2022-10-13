@@ -1,7 +1,8 @@
 import scss from "./carousel.module.scss";
 import { useState } from "react";
-import array from "../../constans/slider";
-
+import sliderList from "../../constans/slider";
+// import { useDispatch } from "react-redux";
+// import { useEffect } from "react";
 function SliderCard({
   img,
   id,
@@ -19,9 +20,11 @@ function SliderCard({
 
   const handleLike = (index) => {
     setIsActive(!isActive);
-    setLiked(array[index - 1]);
+    setLiked(sliderList[index - 1]);
+    console.log(liked);
+    localStorage.setItem("user", JSON.stringify(liked));
   };
-  console.log("liked:", liked?.imgLikeT);
+
   return (
     <>
       <img

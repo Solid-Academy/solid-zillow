@@ -1,4 +1,4 @@
-const array = [
+const sliderList = [
   {
     img: "/imegs/images.jfif",
     id: 1,
@@ -121,4 +121,4 @@ const array = [
   }
 ];
 
-export default array;
+export default sliderList;

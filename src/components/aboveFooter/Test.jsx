@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-function Test({ title, arr }) {
+function Test({ title, AboveFooterList }) {
   const [hidden, setHidden] = useState(false);
   return (
     <>
       <div onClick={() => setHidden(!hidden)}>{title}</div>
       {hidden && (
         <ul>
-          {arr.map((el) => (
+          {AboveFooterList.map((el) => (
             <li>{el.name}</li>
           ))}
         </ul>
