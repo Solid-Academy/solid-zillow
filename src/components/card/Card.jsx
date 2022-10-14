@@ -16,7 +16,7 @@ function Card() {
                 <div>
                   <img className={css.homeImg} src={element.img} alt="" />
                 </div>
-                <div>
+                <div className={css.cardText}>
                   <h1 className={css.title}>{t("card." + element.title)}</h1>
                   <p className={css.text}>{t("card." + element.text)}</p>
                   <button className={css.button}>{t("card." + element.btn)}</button>
