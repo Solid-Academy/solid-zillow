@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 // import { basketActions } from "../../redux";
 // import { useEffect } from "react";
 import { userActions } from "../../redux/reducers/slice";
+
 function SliderCard({
   img,
   id,
@@ -17,7 +18,20 @@ function SliderCard({
   descriptionC,
   descriptionD
 }) {
+  // const redux = useSelector((state) => state.user.data);
   const dispatch = useDispatch();
+  const data = [
+    img,
+    id,
+    price,
+    descriptionA,
+    descriptionB,
+    descriptionUnder,
+    imgLikeT,
+    imgLike,
+    descriptionC,
+    descriptionD
+  ];
   const handleOnLike = () => {
     dispatch(
       userActions.handleLike({
@@ -33,10 +47,14 @@ function SliderCard({
         descriptionD
       })
     );
+    localStorage.setItem("user", JSON.stringify(data));
   };
 
   return (
     <>
+      {/* {redux.map((redux) => (
+        <img className={scss.imgLike} src={redux.imgLike} alt="likePigS" onClick={handleOnLike} />
+      ))} */}
       <img className={scss.imgLike} src={imgLike} alt="likePigS" onClick={handleOnLike} />
       <div id={scss.square} className={scss.wrapper}>
         <img src={img} key={id} alt="pig" />

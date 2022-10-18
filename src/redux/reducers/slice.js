@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const userSlice = createSlice({
   name: "user",
   initialState: {
-    data: []
+    data: JSON.parse(localStorage.getItem("user")) || []
   },
   reducers: {
     handleLike: (state, action) => {
@@ -17,4 +17,4 @@ const userSlice = createSlice({
 });
 
 export const userActions = userSlice.actions;
-export default userSlice.reducer;
+export const userReducer = userSlice.reducer;
