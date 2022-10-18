@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import array from "../../constans/slider";
+import sliderList from "../../constans/slider";
 import SliderCard from "../carousel/SliderCard";
 import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
@@ -21,9 +21,9 @@ function HomePage() {
       <div id="container">
         <div>
           <Slider {...settings}>
-            {array.map((item) => {
-              return <SliderCard key={item.id} {...item} />;
-            })}
+            {sliderList.map((item) => (
+              <SliderCard key={item.id} {...item} />
+            ))}
           </Slider>
         </div>
       </div>

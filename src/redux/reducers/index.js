@@ -1,15 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 const user = JSON.parse(localStorage.getItem("user")) || {};
 
-const initialState = {
-  email: user.email,
-  token: user.accessToken,
-  id: user.uid
-};
-
 const userSlice = createSlice({
   name: "user",
-  initialState,
+  initialState: [user],
   reducers: {
     setUser(state, action) {
       state.email = action.payload.email;
