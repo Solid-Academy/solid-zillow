@@ -4,7 +4,7 @@ import Card from "../card/Card";
 function Dashboard() {
   return (
     <>
-      <div>Dashboard</div>
+      <p>Dashboard</p>
       <Card />
     </>
   );
