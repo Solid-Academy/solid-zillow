@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;500&display=swap');
+.background{
+     background-color: rgb(249, 249, 251);
 
+}
 .container {
-    background-color: rgb(249, 249, 251);
     height: 750px;
+    margin: 0 auto;
+    width:80%;
 
     .CardPage {
-        // width: 100%;
         display: flex;
         justify-content: space-between;
 
