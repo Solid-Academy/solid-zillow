@@ -8,7 +8,7 @@ const userSlice = createSlice({
   reducers: {
     handleLike: (state, action) => {
       alert("KJLKJL");
-      state.data.push(action.payload);
+      state.data = action.payload;
     },
     removeUser(state) {
       //  dada
