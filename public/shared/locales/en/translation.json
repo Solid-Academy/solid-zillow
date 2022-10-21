@@ -16,5 +16,11 @@
     "licenses": "licenses",
     "multiple": " in multiple states. Zillow (Canada), Inc. holds real estate brokerage ",
     "provinse": "in multiple provinces."
+  },
+  "aboveFooter": {
+    "RealEstate": "Real Estate",
+    "Rentals": "Rentals",
+    "Mortgage": "Mortgage Rates",
+    "Browse": "Browse Homes"
   }
 }
