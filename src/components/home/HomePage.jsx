@@ -8,7 +8,7 @@ import SamplePrevArrow from "../carousel/SamplePrevArrow";
 
 function HomePage() {
   // const likeSelector = useSelector((state) => state.user.data);
-
+  // console.log(likeSelector);
   const settings = {
     duts: true,
     infinite: true,

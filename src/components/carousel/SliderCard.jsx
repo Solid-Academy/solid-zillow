@@ -1,8 +1,10 @@
 import scss from "./carousel.module.scss";
 import { useDispatch } from "react-redux";
 import { userActions } from "../../redux/reducers/slice";
-import { useState } from "react";
-import sliderList from "../../constans/slider";
+import React from "react";
+import ImgLikesRedux from "./ImgLikesReduxx";
+import { useSelector } from "react-redux";
+// import sliderList from "../../constans/slider";
 
 function SliderCard({
   img,
@@ -16,8 +18,6 @@ function SliderCard({
   descriptionC,
   descriptionD
 }) {
-  const dispatch = useDispatch();
-
   const dataLocalStorage = [
     img,
     id,
@@ -31,15 +31,8 @@ function SliderCard({
     descriptionD
   ];
 
-  const [isOnActive, setIsOnActive] = useState(false);
-  const [getLikes, setGetLikes] = useState(JSON.parse(localStorage.getItem("user")) || []);
-
-  const handleChangeLikes = (id) => {
-    setIsOnActive(!isOnActive);
-    setGetLikes(sliderList[id - 1]);
-    console.log(getLikes);
-    localStorage.setItem("user", JSON.stringify(getLikes));
-  };
+  const likeSelector = useSelector((state) => state.user.data);
+  const dispatch = useDispatch();
 
   const handleReduxLike = () => {
     dispatch(userActions.handleLike({ dataLocalStorage }));
@@ -49,12 +42,12 @@ function SliderCard({
   return (
     <>
       <div className={scss.button} onClick={() => handleReduxLike({ dataLocalStorage })}>
-        <img
-          className={scss.imgLike}
-          src={getLikes ? imgLike : imgLikeT}
-          alt="likePigS"
-          onClick={() => handleChangeLikes(dispatch(userActions.handleLike({ id })))}
-        />
+        {likeSelector.map((item) => (
+          <ImgLikesRedux key={item.id} {...item} />
+        ))}
+        {/* {sliderList.map((item) => (
+          <ImgLikesRedux key={item.id} {...item} />
+        ))} */}
       </div>
       <div id={scss.square} className={scss.wrapper}>
         <img src={img} key={id} alt="pig" />
