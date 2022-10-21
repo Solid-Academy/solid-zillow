@@ -34,9 +34,9 @@ function SliderCard({
   const [isOnActive, setIsOnActive] = useState(false);
   const [getLikes, setGetLikes] = useState(JSON.parse(localStorage.getItem("user")) || []);
 
-  const handleChangeLikes = (index) => {
+  const handleChangeLikes = (id) => {
     setIsOnActive(!isOnActive);
-    setGetLikes(sliderList[index - 1]);
+    setGetLikes(sliderList[id - 1]);
     console.log(getLikes);
     localStorage.setItem("user", JSON.stringify(getLikes));
   };

@@ -4,8 +4,11 @@ import sliderList from "../../constans/slider";
 import SliderCard from "../carousel/SliderCard";
 import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
+// import { useSelector } from "react-redux";
 
 function HomePage() {
+  // const likeSelector = useSelector((state) => state.user.data);
+
   const settings = {
     duts: true,
     infinite: true,
@@ -25,6 +28,9 @@ function HomePage() {
               <SliderCard key={item.id} {...item} />
             ))}
           </Slider>
+          {/* {likeSelector.map((likeSelector) => (
+            <SliderCard key={likeSelector.id} {...likeSelector} />
+          ))} */}
         </div>
       </div>
     </>
