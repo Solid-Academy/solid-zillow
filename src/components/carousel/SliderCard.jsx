@@ -46,9 +46,9 @@ function SliderCard({
 
   return (
     <>
-      <div className={scss.button} onClick={() => handleReduxLike({ dataLocalStorage })}>
+      <div className={scss.button} onClick={handleReduxLike}>
         {/* <ImgLikesRedux {...item} /> */}
-        <div>{isLiked ? "Liked" : "Like"}</div>
+        <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
         {/* {sliderList.map((item) => (
           <ImgLikesRedux key={item.id} {...item} />
         ))} */}

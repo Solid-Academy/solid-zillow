@@ -4,7 +4,6 @@ import sliderList from "../../constans/slider";
 import SliderCard from "../carousel/SliderCard";
 import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
-// import { useSelector } from "react-redux";
 
 function HomePage() {
   // const likeSelector = useSelector((state) => state.user.data);

@@ -1,8 +1,6 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import { userReducer } from "./reducers/slice";
 
-export const basketActions = userReducer.actions;
-
 export const reducers = combineReducers({
   user: userReducer
 });
