@@ -11,56 +11,56 @@ import { useTranslation } from "react-i18next";
 
 export default function AboveFooter() {
   const { t } = useTranslation();
-  const [open, setOpen] = useState(false);
-  const [open2, setOpen2] = useState(false);
-  const [open3, setOpen3] = useState(false);
-  const [open4, setOpen4] = useState(false);
+  const [openRealEstate, setOpenRealEstate] = useState(false);
+  const [openRentals, setOpenRentals] = useState(false);
+  const [openMortgage, setOpenMortGage] = useState(false);
+  const [openBrowse, setOpenBrowse] = useState(false);
   return (
     <>
       <div className={css.container}>
         <div>
-          <button onClick={() => setOpen(!open)}>
+          <button onClick={() => setOpenRealEstate(!openRealEstate)}>
             {t("aboveFooter.RealEstate")}{" "}
             <img src="./images/footer/icons8-arrow-24.png" alt="arrow" />
           </button>
-          {open &&
+          {openRealEstate &&
             AboveLinks.map((items) => (
               <Link to="#" key={items.id}>
                 {items.link}
               </Link>
             ))}
         </div>
-        <hr style={{ height: "30px", backgroundColor: "rgb(136, 136,136)", width: "0.5px" }} />
+        <hr />
         <div>
-          <button onClick={() => setOpen2(!open2)}>
+          <button onClick={() => setOpenRentals(!openRentals)}>
             {t("aboveFooter.Rentals")} <img src="./images/footer/icons8-arrow-24.png" alt="arrow" />
           </button>
-          {open2 &&
+          {openRentals &&
             AboveLinksRental.map((items) => (
               <Link to="#" key={items.id}>
                 {items.link}
               </Link>
             ))}
         </div>
-        <hr style={{ height: "30px", backgroundColor: "rgb(136, 136,136)", width: "0.5px" }} />
+        <hr />
         <div>
-          <button onClick={() => setOpen3(!open3)}>
+          <button onClick={() => setOpenMortGage(!openMortgage)}>
             {t("aboveFooter.Mortgage")}{" "}
             <img src="./images/footer/icons8-arrow-24.png" alt="arrow" />
           </button>
-          {open3 &&
+          {openMortgage &&
             AboveLinksMortgageRates.map((items) => (
               <Link to="#" key={items.id}>
                 {items.link}
               </Link>
             ))}
         </div>
-        <hr style={{ height: "30px", backgroundColor: "rgb(136, 136,136)", width: "0.5px" }} />
+        <hr />
         <div>
-          <button onClick={() => setOpen4(!open4)}>
+          <button onClick={() => setOpenBrowse(!openBrowse)}>
             {t("aboveFooter.Browse")} <img src="./images/footer/icons8-arrow-24.png" alt="arrow" />
           </button>
-          {open4 &&
+          {openBrowse &&
             AboveLinksBrowseHomes.map((items) => (
               <Link to="#" key={items.id}>
                 {items.link}
