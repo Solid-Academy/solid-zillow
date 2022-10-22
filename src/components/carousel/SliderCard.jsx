@@ -2,7 +2,7 @@ import scss from "./carousel.module.scss";
 import { useDispatch } from "react-redux";
 import { userActions } from "../../redux/reducers/slice";
 import React from "react";
-import ImgLikesRedux from "./ImgLikesReduxx";
+// import ImgLikesRedux from "./ImgLikesReduxx";
 import { useSelector } from "react-redux";
 // import sliderList from "../../constans/slider";
 
@@ -18,7 +18,7 @@ function SliderCard({
   descriptionC,
   descriptionD
 }) {
-  const dataLocalStorage = [
+  const dataLocalStorage = {
     img,
     id,
     price,
@@ -29,22 +29,26 @@ function SliderCard({
     imgLike,
     descriptionC,
     descriptionD
-  ];
+  };
 
   const likeSelector = useSelector((state) => state.user.data);
+  const isLiked = likeSelector.filter((item) => item.id === id).length;
+  console.log("35============>", likeSelector);
   const dispatch = useDispatch();
 
   const handleReduxLike = () => {
-    dispatch(userActions.handleLike({ dataLocalStorage }));
-    localStorage.setItem("user", JSON.stringify(dataLocalStorage));
+    if (isLiked) {
+      alert("Delete card from basket");
+    } else {
+      dispatch(userActions.handleLike(dataLocalStorage));
+    }
   };
 
   return (
     <>
       <div className={scss.button} onClick={() => handleReduxLike({ dataLocalStorage })}>
-        {likeSelector.map((item) => (
-          <ImgLikesRedux key={item.id} {...item} />
-        ))}
+        {/* <ImgLikesRedux {...item} /> */}
+        <div>{isLiked ? "Liked" : "Like"}</div>
         {/* {sliderList.map((item) => (
           <ImgLikesRedux key={item.id} {...item} />
         ))} */}

@@ -45,10 +45,11 @@ function ImgLikesRedux({
   return (
     <>
       <img
+        key={id}
         className={scss.imgLike}
         src={getLikes ? imgLike : imgLikeT}
         alt="likePigS"
-        onClick={() => handleChangeLikes(dispatch(userActions.handleLike({ id })))}
+        onClick={() => handleChangeLikes(dispatch(userActions.handleLike({ dataLocalStorage })))}
       />
     </>
   );

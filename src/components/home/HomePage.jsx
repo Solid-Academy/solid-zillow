@@ -9,8 +9,9 @@ import SamplePrevArrow from "../carousel/SamplePrevArrow";
 function HomePage() {
   // const likeSelector = useSelector((state) => state.user.data);
   // console.log(likeSelector);
+
   const settings = {
-    duts: true,
+    dots: true,
     infinite: true,
     speed: 100,
     slidesToShow: 4,
@@ -28,8 +29,8 @@ function HomePage() {
               <SliderCard key={item.id} {...item} />
             ))}
           </Slider>
-          {/* {likeSelector.map((likeSelector) => (
-            <SliderCard key={likeSelector.id} {...likeSelector} />
+          {/* {likeSelector.map((item) => (
+            <SliderCard key={item.id} {...item} />
           ))} */}
         </div>
       </div>
