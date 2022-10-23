@@ -2,9 +2,7 @@ import scss from "./carousel.module.scss";
 import { useDispatch } from "react-redux";
 import { userActions } from "../../redux/reducers/slice";
 import React from "react";
-// import ImgLikesRedux from "./ImgLikesReduxx";
 import { useSelector } from "react-redux";
-// import sliderList from "../../constans/slider";
 
 function SliderCard({
   img,
@@ -30,15 +28,17 @@ function SliderCard({
     descriptionC,
     descriptionD
   };
-
-  const likeSelector = useSelector((state) => state.user.data);
+  const likeSelector = useSelector((getRedux) => getRedux.user.data);
   const isLiked = likeSelector.filter((item) => item.id === id).length;
-  console.log("35============>", likeSelector);
   const dispatch = useDispatch();
+
+  const onDelete = () => {
+    dispatch(userActions.removeLike(id));
+  };
 
   const handleReduxLike = () => {
     if (isLiked) {
-      alert("Delete card from basket");
+      onDelete();
     } else {
       dispatch(userActions.handleLike(dataLocalStorage));
     }
@@ -47,11 +47,7 @@ function SliderCard({
   return (
     <>
       <div className={scss.button} onClick={handleReduxLike}>
-        {/* <ImgLikesRedux {...item} /> */}
         <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
-        {/* {sliderList.map((item) => (
-          <ImgLikesRedux key={item.id} {...item} />
-        ))} */}
       </div>
       <div id={scss.square} className={scss.wrapper}>
         <img src={img} key={id} alt="pig" />

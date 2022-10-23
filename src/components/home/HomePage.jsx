@@ -6,9 +6,6 @@ import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
 
 function HomePage() {
-  // const likeSelector = useSelector((state) => state.user.data);
-  // console.log(likeSelector);
-
   const settings = {
     dots: true,
     infinite: true,
@@ -28,9 +25,6 @@ function HomePage() {
               <SliderCard key={item.id} {...item} />
             ))}
           </Slider>
-          {/* {likeSelector.map((item) => (
-            <SliderCard key={item.id} {...item} />
-          ))} */}
         </div>
       </div>
     </>
