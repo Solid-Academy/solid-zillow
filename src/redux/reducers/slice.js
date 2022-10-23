@@ -7,11 +7,9 @@ const userSlice = createSlice({
   },
   reducers: {
     handleLike: (state, action) => {
-      alert("added");
       state.data.push(action.payload);
     },
     removeLike: (state, action) => {
-      alert("deleted");
       state.data = state.data.filter((item) => item.id !== action.payload);
     }
   }

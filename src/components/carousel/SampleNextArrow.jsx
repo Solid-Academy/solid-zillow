@@ -1,10 +1,9 @@
 import scss from "./carousel.module.scss";
 
-function SampleNextArrow(props) {
-  const { onClick } = props;
+function SampleNextArrow({ nextArrow }) {
   return (
     <>
-      <div id="next" onClick={onClick}>
+      <div id="next" onClick={nextArrow}>
         <img id="arrL" className={scss.arrowL} src="imegs/skip.png" alt="imgicoins" />
       </div>
     </>
