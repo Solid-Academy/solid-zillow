@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;500&display=swap');
-.background{
-     background-color: rgb(249, 249, 251);
+
+.background {
+    background-color: rgb(249, 249, 251);
 
 }
+
 .container {
     height: 750px;
     margin: 0 auto;
-    width:80%;
+    width: 80%;
 
     .CardPage {
         display: flex;
@@ -410,7 +412,7 @@
                 align-items: flex-start;
                 flex-flow: row wrap;
                 height: 440px;
-                width: 530px;
+                width: 510px;
 
                 .homeImg {
                     height: 190px;
@@ -422,14 +424,133 @@
 
 }
 
-@media(max-width:550px) {
-    .CardPage {
-        display: flex;
-        flex-direction: column;
+@media(max-width:570px) {
+    .container {
+        height: 1680px;
 
-        .card {
-            height: 440px;
-            width: 470px;
+        .CardPage {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                height: 480px;
+                width: 500px;
+            }
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .container {
+        height: 1680px;
+
+        .CardPage {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                height: 480px;
+                width: 480px;
+            }
+        }
+    }
+}
+
+@media(max-width:530px) {
+    .container {
+        width: 100%;
+
+        .CardPage {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                height: 480px;
+                width: 450px;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .container {
+        width: 100%;
+
+        .CardPage {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                height: 480px;
+                width: 420px;
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    .container {
+        width: 100%;
+
+        .CardPage {
+            display: flex;
+
+            .cardText {
+                display: block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .card {
+                height: 480px;
+                width: auto;
+                margin: auto;
+                margin-bottom: 20px;
+
+                .homeImg {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:460px) {
+    .container {
+        width: 100%;
+
+        .CardPage {
+            display: flex;
+
+            .card {
+                height: 480px;
+                width: auto;
+                margin: auto;
+                margin-bottom: 20px;
+
+
+                .homeImg {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:410px) {
+    .container {
+        width: 100%;
+
+        .CardPage {
+            display: flex;
+
+            .card {
+                height: 480px;
+                width: auto;
+                margin: auto;
+                margin-bottom: 20px;
+
+            }
         }
     }
 }
