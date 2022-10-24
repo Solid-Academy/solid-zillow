@@ -81,4 +81,18 @@
 .button:active {
   border: 1px solid white;
 }
-
+.hr {
+  margin-bottom: 50px;
+}
+.p {
+  opacity: 0.5;
+}
+.divHeader {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home {
+  background-color: red;
+}

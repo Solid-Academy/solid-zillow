@@ -2,8 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import sliderList from "../../constans/slider";
 import SliderCard from "../carousel/SliderCard";
+import SliderHead from "../carousel/SliderHead";
 import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
+import scss from "./homePage.module.scss";
 
 function HomePage() {
   const settings = {
@@ -76,7 +78,8 @@ function HomePage() {
   return (
     <>
       <div id="container">
-        <div>
+        <div className={scss.home}>
+          <SliderHead />
           <Slider {...settings}>
             {sliderList.map((item) => (
               <SliderCard key={item.id} {...item} />
