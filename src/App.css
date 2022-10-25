@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-#next {
+.left {
   display: none;
 }
 
-#prev {
+#right {
   display: none;
 }
 
@@ -21,45 +21,47 @@
   width: 99%;
 }
 
-#container :hover #next {
+#container :hover .left {
   display: block;
 }
 
-#container :hover #arrL {
+#container :hover #arrayLeft {
   display: block;
   position: absolute;
   right: 0px;
   background-color: white;
   border-radius: 100%;
-  padding: 8px;
+  padding: 10px;
+  color: black;
 }
 
-#container :hover #prev {
+#container :hover #right {
   display: block;
 }
 
-#container :hover #arrR {
+#container :hover #rightArray {
   display: block;
   position: absolute;
   left: 0px;
   background-color: white;
   border-radius: 100%;
-  padding: 8px;
+  padding: 10px;
+  color: black;
 }
 
-#arrR {
+#rightArray {
   background-color: white;
 }
 
-#arrR:hover {
+#rightArray:hover {
   opacity: 0.5;
 }
 
-#arrL {
+#arrayLeft {
   background-color: white;
 }
 
-#arrL:hover {
+#arrayLeft:hover {
   opacity: 0.5;
 }
 

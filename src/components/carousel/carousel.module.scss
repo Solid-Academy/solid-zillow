@@ -1,17 +1,17 @@
-.arrowR {
+.arrowRight {
   position: absolute;
   left: 25px;
   bottom: 120px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   z-index: 1;
 }
-.arrowL {
+.arrowLeft {
   position: absolute;
   bottom: 120px;
   right: 25px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   z-index: 1;
 }
 .wrapper {
@@ -49,13 +49,12 @@
 }
 .price {
   font-size: larger;
-  font-weight: medium;
+  font-weight: normal;
   font-family: sans-serif;
 }
 .descriptionF {
   font-size: small;
   opacity: 0.6;
-  // margin-top: 10px;
 }
 .imgSlider {
   width: 100%;
@@ -81,17 +80,20 @@
   height: 45px;
   margin-left: 280px;
   position: absolute;
+  top: 6px;
 }
 .button:active {
   border: 1px solid white;
+  opacity: 0.9;
 }
-.hr {
+.hrLine {
+  opacity: 0.8;
   margin-bottom: 50px;
 }
-.p {
+.basedOnHomes {
   opacity: 0.5;
 }
-.divHeader {
+.header {
   height: 20vh;
   display: flex;
   flex-direction: column;
@@ -102,9 +104,9 @@
 }
 .imgDesk {
   position: absolute;
+  top: 12px;
   margin-left: 10.9px;
   font-size: small;
-  top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
