@@ -14,7 +14,9 @@ function SliderCard({
   imgLikeT,
   imgLike,
   descriptionC,
-  descriptionD
+  descriptionD,
+  descriptionF,
+  imgDesk
 }) {
   const dataLocalStorage = {
     img,
@@ -26,7 +28,9 @@ function SliderCard({
     imgLikeT,
     imgLike,
     descriptionC,
-    descriptionD
+    descriptionD,
+    descriptionF,
+    imgDesk
   };
   const likeSelector = useSelector((getRedux) => getRedux.user.data);
   const isLiked = likeSelector.filter((item) => item.id === id).length;
@@ -50,10 +54,13 @@ function SliderCard({
         <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
       </div>
       <div id={scss.square} className={scss.wrapper}>
-        <img src={img} key={id} alt="pig" />
+        <div className={scss.imgDesk}>
+          <div className={scss.imgDeskWord}>{imgDesk}</div>
+        </div>
+        <img className={scss.imgSlider} src={img} key={id} alt="pig" />
         <div className={scss.title}>
           <div className={scss.price}>{price}</div>
-          <div className={scss.desc}>
+          <div className={scss.whiteBlock}>
             <div>{descriptionA}</div>
             <div className={scss.opacity}>|</div>
             <div>{descriptionB}</div>
@@ -62,7 +69,8 @@ function SliderCard({
             <div className={scss.opacity}>|</div>
             <div>{descriptionD}</div>
           </div>
-          <div className={scss.descriptionUnder}>{descriptionUnder}</div>
+          <div>{descriptionUnder}</div>
+          <div className={scss.descriptionF}>{descriptionF}</div>
         </div>
       </div>
     </>
