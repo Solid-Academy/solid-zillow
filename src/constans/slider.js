@@ -1,6 +1,6 @@
 const sliderList = [
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 1,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -8,11 +8,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 2,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -20,11 +20,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 3,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -32,11 +32,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 4,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -44,11 +44,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 5,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -56,11 +56,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 6,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -68,11 +68,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 7,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -80,11 +80,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 8,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -92,11 +92,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 9,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -104,11 +104,11 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   },
   {
-    img: "/imegs/images.jfif",
+    img: "/images/images.jfif",
     id: 10,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -116,8 +116,8 @@ const sliderList = [
     descriptionD: "Active",
     price: "$350 000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago, IL 60651",
-    imgLike: "/imegs/freeIcon.png",
-    imgLikeT: "/imegs/freeBlue.png"
+    imgLike: "/images/freeIcon.png",
+    imgLikeT: "/images/freeBlue.png"
   }
 ];
 

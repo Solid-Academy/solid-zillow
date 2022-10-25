@@ -1,10 +1,10 @@
 import scss from "./carousel.module.scss";
 
-function SampleNextArrow({ nextArrow }) {
+function SampleNextArrow({ onClick }) {
   return (
     <>
-      <div id="next" onClick={nextArrow}>
-        <img id="arrL" className={scss.arrowL} src="imegs/skip.png" alt="imgicoins" />
+      <div id="next" onClick={onClick}>
+        <img id="arrL" className={scss.arrowL} src="images/skip.png" alt="imgicoins" />
       </div>
     </>
   );

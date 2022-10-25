@@ -46,25 +46,23 @@ function SliderCard({
 
   return (
     <>
-      <div>
-        <div className={scss.button} onClick={handleReduxLike}>
-          <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
-        </div>
-        <div id={scss.square} className={scss.wrapper}>
-          <img src={img} key={id} alt="pig" />
-          <div className={scss.title}>
-            <div className={scss.price}>{price}</div>
-            <div className={scss.desc}>
-              <div>{descriptionA}</div>
-              <div className={scss.opacity}>|</div>
-              <div>{descriptionB}</div>
-              <div className={scss.opacity}>|</div>
-              <div>{descriptionC}</div>
-              <div className={scss.opacity}>|</div>
-              <div>{descriptionD}</div>
-            </div>
-            <div className={scss.descriptionUnder}>{descriptionUnder}</div>
+      <div className={scss.button} onClick={handleReduxLike}>
+        <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
+      </div>
+      <div id={scss.square} className={scss.wrapper}>
+        <img src={img} key={id} alt="pig" />
+        <div className={scss.title}>
+          <div className={scss.price}>{price}</div>
+          <div className={scss.desc}>
+            <div>{descriptionA}</div>
+            <div className={scss.opacity}>|</div>
+            <div>{descriptionB}</div>
+            <div className={scss.opacity}>|</div>
+            <div>{descriptionC}</div>
+            <div className={scss.opacity}>|</div>
+            <div>{descriptionD}</div>
           </div>
+          <div className={scss.descriptionUnder}>{descriptionUnder}</div>
         </div>
       </div>
     </>

@@ -47,6 +47,21 @@
   padding: 8px;
 }
 
+#arrR {
+  background-color: white;
+}
+
+#arrR:hover {
+  opacity: 0.5;
+}
+
+#arrL {
+  background-color: white;
+}
+
+#arrL:hover {
+  opacity: 0.5;
+}
 
 #container {
   margin: 100px auto;
