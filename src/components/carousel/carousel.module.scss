@@ -17,7 +17,7 @@
 .wrapper {
   border: 1px solid #878787;
   height: 250px;
-  width: 325px;
+  width: 290px;
   margin-top: 60px;
   border-radius: 10px;
 }
@@ -44,12 +44,12 @@
   border-radius: 10px 10px 5px 5px;
   background-color: white;
   height: 150px;
-  margin: 0 auto;
+  width: 290px;
   padding-bottom: 50px;
 }
 .price {
   font-size: larger;
-  font-weight: normal;
+  font-weight: bold;
   font-family: sans-serif;
 }
 .descriptionF {
@@ -57,10 +57,11 @@
   opacity: 0.6;
 }
 .imgSlider {
-  width: 100%;
+width: 100%;
 }
 .imgLike {
-  z-index: 2;
+  filter: drop-shadow(0 0 0.1rem black);
+  z-index: 3;
   width: 40px;
   position: absolute;
   top: 5px;
@@ -68,21 +69,19 @@
 }
 .whiteBlock {
   display: flex;
-  justify-content: space-between;
 }
 .opacity {
   opacity: 0.5;
 }
 .button {
-  box-shadow: -1px 1px 10px black;
-  border-radius: 100%;
   width: 45px;
   height: 45px;
-  margin-left: 280px;
+  margin-left: 250px;
   position: absolute;
   top: 6px;
 }
 .button:active {
+  border-radius: 100%;
   border: 1px solid white;
   opacity: 0.9;
 }
@@ -98,9 +97,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-.home {
-  background-color: red;
 }
 .imgDesk {
   position: absolute;

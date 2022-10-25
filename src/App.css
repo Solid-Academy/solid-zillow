@@ -17,10 +17,6 @@
   width: 99%;
 }
 
-#container:hover {
-  width: 99%;
-}
-
 #container :hover .left {
   display: block;
 }
