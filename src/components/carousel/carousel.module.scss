@@ -1,14 +1,14 @@
 .arrowRight {
   position: absolute;
   left: 25px;
-  bottom: 120px;
+  bottom: 140px;
   height: 40px;
   width: 40px;
   z-index: 1;
 }
 .arrowLeft {
   position: absolute;
-  bottom: 120px;
+  bottom: 140px;
   right: 25px;
   height: 40px;
   width: 40px;
@@ -48,6 +48,13 @@
   width: 290px;
   padding-bottom: 50px;
 }
+.home {
+  color: rgb(73, 73, 73);
+  margin-top: -80px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .price {
   color: rgb(73, 73, 73);
   margin: 5px;
@@ -105,7 +112,7 @@
   color: rgb(73, 73, 73);
   opacity: 0.8;
 }
-.header {
+.homesForYou {
   height: 12vh;
   display: flex;
   flex-direction: column;

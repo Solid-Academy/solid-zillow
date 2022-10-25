@@ -49,7 +49,7 @@ function SliderCard({
   };
 
   return (
-    <>
+    <div>
       <div className={scss.button} onClick={handleReduxLike}>
         <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
       </div>
@@ -73,7 +73,7 @@ function SliderCard({
           <div className={scss.descriptionF}>{descriptionF}</div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default SliderCard;
