@@ -49,17 +49,20 @@
   padding-bottom: 50px;
 }
 .price {
+  color: rgb(73, 73, 73);
   margin: 5px;
   font-size: larger;
   font-weight: bold;
   font-family: sans-serif;
 }
 .descriptionF {
+  color: rgb(73, 73, 73);
   margin: 5px;
   font-size: small;
   opacity: 0.6;
 }
 .descriptionUnder {
+  color: rgb(73, 73, 73);
   margin-left: 5px;
 }
 .imgSlider {
@@ -76,7 +79,6 @@
 .whiteBlock {
   margin: 5px;
   display: flex;
-  // flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
@@ -100,10 +102,11 @@
   margin-bottom: 50px;
 }
 .basedOnHomes {
-  opacity: 0.5;
+  color: rgb(73, 73, 73);
+  opacity: 0.8;
 }
 .header {
-  height: 20vh;
+  height: 12vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

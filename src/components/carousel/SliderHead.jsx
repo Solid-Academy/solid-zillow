@@ -5,8 +5,9 @@ function SliderHead() {
     <>
       <div className={scss.header}>
         <h1>Homes For You</h1>
-        <p className={scss.basedOnHomes}>Based on homes you recently viewed</p>
+        <span className={scss.basedOnHomes}>Based on homes you recently viewed</span>
       </div>
+      <br />
       <hr className={scss.hrLine} />
     </>
   );
