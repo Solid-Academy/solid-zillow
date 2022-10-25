@@ -69,7 +69,7 @@ function SliderCard({
             <div className={scss.opacity}>|</div>
             <div>{descriptionD}</div>
           </div>
-          <div>{descriptionUnder}</div>
+          <div className={scss.descriptionUnder}>{descriptionUnder}</div>
           <div className={scss.descriptionF}>{descriptionF}</div>
         </div>
       </div>

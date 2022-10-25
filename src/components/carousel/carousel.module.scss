@@ -48,16 +48,21 @@
   padding-bottom: 50px;
 }
 .price {
+  margin: 5px;
   font-size: larger;
   font-weight: bold;
   font-family: sans-serif;
 }
 .descriptionF {
+  margin: 5px;
   font-size: small;
   opacity: 0.6;
 }
+.descriptionUnder{
+  margin-left: 5px;
+}
 .imgSlider {
-width: 100%;
+  width: 100%;
 }
 .imgLike {
   filter: drop-shadow(0 0 0.1rem black);
@@ -68,6 +73,7 @@ width: 100%;
   margin-left: 2.9px;
 }
 .whiteBlock {
+  margin: 5px;
   display: flex;
 }
 .opacity {
