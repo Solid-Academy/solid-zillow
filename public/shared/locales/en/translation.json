@@ -2,5 +2,40 @@
   "Slider": {
     "main_titile": "Homes For You",
     "description": "Based on homes you recently viewed"
+  },
+  "footer": {
+    "information": "Do Not Sell My Personal Information →",
+    "zillowGroup": "Zillow Group is committed to ensuring digital accessibility for individuals with disabilities. We are continuously working to improve the accessibility of our webexperience for everyone, and we welcome feedback and accommodation requests. If youwish to report an issue or seek an accommodation, please",
+    "letUs": "let us know",
+    "standart": "§ 442-H New York Standard Operating Procedures",
+    "fair": "§ New York Fair Housing Notice",
+    "TREC": "TREC: ",
+    "infoAbout": "Information about brokerage services, Consumer protection notice",
+    "DRE": "California DRE #1522444",
+    "contactZillow": "Contact Zillow, Inc. Brokerage",
+    "listings": "For listings in Canada, the trademarks REALTOR®, REALTORS®, and the REALTOR® logo arecontrolled by The Canadian Real Estate Association (CREA) and identify real estateprofessionals who are members of CREA. The trademarks MLS®, Multiple Listing Service®and the associated logos are owned by CREA and identify the quality of servicesprovided by real estate professionals who are members of CREA. Used under license.",
+    "followUs": "Follow us:",
+    "zillow2006": "© 2006-2022 Zillow",
+    "holds": "Zillow, Inc. holds real estate brokerage ",
+    "licenses": "licenses",
+    "multiple": " in multiple states. Zillow (Canada), Inc. holds real estate brokerage ",
+    "provinse": "in multiple provinces."
+  },
+  "aboveFooter": {
+    "RealEstate": "Real Estate",
+    "Rentalls": "Rentals",
+    "Mortgage": "Mortgage Rates",
+    "Browse": "Browse Homes"
+  },
+  "card": {
+    "Buy_home": "Buy a home",
+    "Sell_home": "Sell a home",
+    "Rent_home": "Rent a home",
+    "text_1": "Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.",
+    "text_2": "No matter what path you take to sell your home, we can help you navigate a successful sale.",
+    "text_3": "Your next place is closer than you think. Explore the possibilities, and discover a rental you’ll love.",
+    "browce": "Browce Homes",
+    "options": "See your options",
+    "rentals": "Find rentals"
   }
 }

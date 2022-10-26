@@ -1,7 +1,7 @@
 .arrowRight {
   position: absolute;
-  left: 25px;
   bottom: 140px;
+  left: 0px;
   height: 40px;
   width: 40px;
   z-index: 1;
@@ -9,15 +9,13 @@
 .arrowLeft {
   position: absolute;
   bottom: 140px;
-  right: 25px;
+  right: 0px;
   height: 40px;
   width: 40px;
   z-index: 1;
 }
 .wrapper {
-  height: 250px;
   width: 290px;
-  margin-top: 60px;
   border-radius: 10px;
 }
 #square {
@@ -38,15 +36,10 @@
   }
 }
 .title {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   border-radius: 10px 10px 5px 5px;
   background-color: white;
   height: 150px;
   width: 290px;
-  padding-bottom: 50px;
 }
 .home {
   color: rgb(73, 73, 73);
