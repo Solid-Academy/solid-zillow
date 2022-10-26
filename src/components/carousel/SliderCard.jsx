@@ -16,7 +16,8 @@ function SliderCard({
   descriptionC,
   descriptionD,
   descriptionF,
-  imgDesk
+  imgDesk,
+  imgDeskNull
 }) {
   const dataLocalStorage = {
     img,
@@ -30,7 +31,8 @@ function SliderCard({
     descriptionC,
     descriptionD,
     descriptionF,
-    imgDesk
+    imgDesk,
+    imgDeskNull
   };
   const likeSelector = useSelector((getRedux) => getRedux.user.data);
   const isLiked = likeSelector.filter((item) => item.id === id).length;
@@ -54,9 +56,13 @@ function SliderCard({
         <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
       </div>
       <div id={scss.square} className={scss.wrapper}>
-        <div className={scss.imgDesk}>
-          <div className={scss.imgDeskWord}>{imgDesk}</div>
-        </div>
+        {isLiked ? (
+          <div className={scss.imgDesk}>
+            <div className={scss.imgDeskWord}>{imgDesk}</div>
+          </div>
+        ) : (
+          <div style={{ display: "none" }}></div>
+        )}
         <img className={scss.imgSlider} src={img} key={id} alt="pig" />
         <div className={scss.title}>
           <div className={scss.price}>{price}</div>

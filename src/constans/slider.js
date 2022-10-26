@@ -67,7 +67,8 @@ const sliderList = [
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
     imgLike: "/images/freeIcon.png",
     imgLikeT: "/images/freeBlue.png",
-    imgDesk: "Mobile Payments"
+    imgDesk: "Mobile Payments",
+    imgDeskNull: ""
   },
   {
     img: "/images/images.jfif",
