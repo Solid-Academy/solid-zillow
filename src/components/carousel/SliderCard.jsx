@@ -51,7 +51,7 @@ function SliderCard({
   return (
     <div>
       <div className={scss.button} onClick={handleReduxLike}>
-        <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likePigS" />
+        <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likes" />
       </div>
       <div id={scss.square} className={scss.wrapper}>
         {imgDesk ? (
@@ -61,7 +61,7 @@ function SliderCard({
         ) : (
           ""
         )}
-        <img className={scss.imgSlider} src={img} key={id} alt="pig" />
+        <img className={scss.imgSlider} src={img} key={id} alt="slider" />
         <div className={scss.title}>
           <div className={scss.price}>{price}</div>
           <div className={scss.whiteBlock}>
