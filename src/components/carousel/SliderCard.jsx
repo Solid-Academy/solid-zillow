@@ -51,7 +51,7 @@ function SliderCard({
   return (
     <div>
       <div className={scss.button} onClick={handleReduxLike}>
-        <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="likes" />
+        <img className={scss.imgLike} src={isLiked ? imgLikeT : imgLike} alt="like" />
       </div>
       <div id={scss.square} className={scss.wrapper}>
         {imgDesk ? (
