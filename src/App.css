@@ -14,10 +14,6 @@
   display: none;
 }
 
-#container {
-  height: 60vh;
-  width: 99%;
-}
 
 #container :hover .left {
   display: block;
@@ -44,7 +40,6 @@
   background-color: white;
   border-radius: 100%;
   padding: 10px;
-  color: black;
 }
 
 #rightArray {
