@@ -1,0 +1,130 @@
+.home {
+  color: rgb(73, 73, 73);
+  width: 90%;
+  margin: 100px auto;
+}
+.arrowRight {
+  position: absolute;
+  bottom: 140px;
+  left: 0px;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+}
+.arrowLeft {
+  position: absolute;
+  bottom: 140px;
+  right: 0px;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+}
+.wrapper {
+  width: 290px;
+  border-radius: 10px;
+}
+#square {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 5px 5px rgb(201, 201, 201);
+  box-shadow: 0px 5px 5px rgb(109, 109, 109), 0px 5px 5px rgb(201, 201, 201);
+  flex-flow: wrap;
+  height: 100%;
+  border-radius: 10px;
+}
+.wrapper {
+  img {
+    border-radius: 10px 10px 0px 0px;
+    height: 160px;
+  }
+}
+.title {
+  border-radius: 10px 10px 5px 5px;
+  background-color: white;
+  height: 150px;
+  width: 290px;
+}
+.price {
+  color: rgb(73, 73, 73);
+  margin: 5px;
+  font-size: larger;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.descriptionF {
+  color: rgb(73, 73, 73);
+  margin: 5px;
+  font-size: small;
+  opacity: 0.6;
+}
+.descriptionUnder {
+  color: rgb(73, 73, 73);
+  margin-left: 5px;
+}
+.imgSlider {
+  width: 100%;
+}
+.imgLike {
+  filter: drop-shadow(0 0 0.1rem black);
+  z-index: 3;
+  width: 40px;
+  position: absolute;
+  top: 5px;
+  margin-left: 2.9px;
+}
+.whiteBlock {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.opacity {
+  opacity: 0.5;
+}
+.button {
+  width: 45px;
+  height: 45px;
+  margin-left: 250px;
+  position: absolute;
+  top: 6px;
+}
+.button:active {
+  border-radius: 100%;
+  border: 1px solid white;
+  opacity: 0.9;
+}
+.hrLine {
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+.basedOnHomes {
+  color: rgb(73, 73, 73);
+  opacity: 0.8;
+}
+.homesForYou {
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.imgDesk {
+  position: absolute;
+  top: 12px;
+  margin-left: 10.9px;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .imgDeskWord {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2px 10px;
+    z-index: 0;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    box-shadow: -1px 1px 10px black;
+  }
+}

@@ -104,6 +104,9 @@
       "settings": "Account settings",
       "out": "Sign out"
     }
+  "Slider": {
+    "main_titile": "Homes For You",
+    "description": "Based on homes you recently viewed"
   },
   "footer": {
     "information": "Do Not Sell My Personal Information →",
@@ -122,5 +125,22 @@
     "licenses": "licenses",
     "multiple": " in multiple states. Zillow (Canada), Inc. holds real estate brokerage ",
     "provinse": "in multiple provinces."
+  },
+  "aboveFooter": {
+    "RealEstate": "Real Estate",
+    "Rentalls": "Rentals",
+    "Mortgage": "Mortgage Rates",
+    "Browse": "Browse Homes"
+  },
+  "card": {
+    "Buy_home": "Buy a home",
+    "Sell_home": "Sell a home",
+    "Rent_home": "Rent a home",
+    "text_1": "Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.",
+    "text_2": "No matter what path you take to sell your home, we can help you navigate a successful sale.",
+    "text_3": "Your next place is closer than you think. Explore the possibilities, and discover a rental you’ll love.",
+    "browce": "Browce Homes",
+    "options": "See your options",
+    "rentals": "Find rentals"
   }
 }

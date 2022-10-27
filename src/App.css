@@ -1,5 +1,63 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;500&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.left {
+  display: none;
+}
+
+#right {
+  display: none;
+}
+
+
+#container :hover .left {
+  display: block;
+}
+
+#container :hover #arrayLeft {
+  display: block;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  color: black;
+}
+
+#container :hover #right {
+  display: block;
+}
+
+#container :hover #rightArray {
+  display: block;
+  position: absolute;
+  left: 0px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+#rightArray {
+  background-color: white;
+}
+
+#rightArray:hover {
+  opacity: 0.5;
+}
+
+#arrayLeft {
+  background-color: white;
+}
+
+#arrayLeft:hover {
+  opacity: 0.5;
+}
+
+#container {
+  margin: 100px auto;
 }
