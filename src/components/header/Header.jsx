@@ -16,7 +16,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className={scss.container}>
+        <div className={burger ? scss.container_active : scss.container}>
           <div>
             <div
               onClick={() => setBurger(!burger)}
