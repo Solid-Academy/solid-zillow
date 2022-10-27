@@ -7,7 +7,7 @@ import SampleNextArrow from "../carousel/SampleNextArrow";
 import SamplePrevArrow from "../carousel/SamplePrevArrow";
 import scss from "./carousel.module.scss";
 
-function HomePage() {
+function HomeSlider() {
   const settings = {
     infinite: true,
     speed: 100,
@@ -89,4 +89,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomeSlider;

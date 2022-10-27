@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./components/home/HomePage";
+import HomePage from "./pages/HomePage";
 import { PrivateRoute } from "./routes";
 import Dashboard from "./components/dashboard/Dashboard";
 import "./App.css";
