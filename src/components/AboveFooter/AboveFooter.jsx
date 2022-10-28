@@ -33,7 +33,8 @@ export default function AboveFooter() {
         <hr />
         <div>
           <button onClick={() => setOpenRentals(!openRentals)}>
-            {t("aboveFooter.Rentals")} <img src="./images/footer/icons8-arrow-24.png" alt="arrow" />
+            {t("aboveFooter.Rentalls")}{" "}
+            <img src="./images/footer/icons8-arrow-24.png" alt="arrow" />
           </button>
           {openRentals &&
             AboveLinksRental.map((items) => (

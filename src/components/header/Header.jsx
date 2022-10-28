@@ -36,7 +36,18 @@ function Header() {
             <div className={scss.main_nav}>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.buy.buy")}</Link>
-                <button onClick={() => setBuy(!buy)}>
+                <button
+                  onClick={() =>
+                    setBuy(() => {
+                      setBuy(!buy);
+                      setRent(false);
+                      setSell(false);
+                      setLoans(false);
+                      setAgent(false);
+                      setRental(false);
+                    })
+                  }
+                >
                   <span className={buy ? scss.span_buy : scss.span}></span>
                 </button>
                 <div className={scss.dropdown_content}>
@@ -81,7 +92,18 @@ function Header() {
               </div>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.rent.rent")}</Link>
-                <button onClick={() => setRent(!rent)}>
+                <button
+                  onClick={() =>
+                    setRent(() => {
+                      setBuy(false);
+                      setRent(!rent);
+                      setSell(false);
+                      setLoans(false);
+                      setAgent(false);
+                      setRental(false);
+                    })
+                  }
+                >
                   <span className={rent ? scss.span_buy : scss.span}></span>
                 </button>
                 <div className={scss.dropdown_content}>
@@ -122,7 +144,18 @@ function Header() {
               </div>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.sell.sell")}</Link>
-                <button onClick={() => setSell(!sell)}>
+                <button
+                  onClick={() =>
+                    setSell(() => {
+                      setBuy(false);
+                      setRent(false);
+                      setSell(!sell);
+                      setLoans(false);
+                      setAgent(false);
+                      setRental(false);
+                    })
+                  }
+                >
                   <span className={sell ? scss.span_buy : scss.span}></span>
                 </button>
                 <div className={scss.dropdown_content}>
@@ -160,7 +193,18 @@ function Header() {
               </div>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.loans.loans")}</Link>
-                <button onClick={() => setLoans(!loans)}>
+                <button
+                  onClick={() =>
+                    setLoans(() => {
+                      setBuy(false);
+                      setRent(false);
+                      setSell(false);
+                      setLoans(!loans);
+                      setAgent(false);
+                      setRental(false);
+                    })
+                  }
+                >
                   <span className={loans ? scss.span_buy : scss.span}></span>
                 </button>
                 <div className={scss.dropdown_content}>
@@ -205,7 +249,18 @@ function Header() {
               </div>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.agent.agent")}</Link>
-                <button onClick={() => setAgent(!agent)}>
+                <button
+                  onClick={() =>
+                    setAgent(() => {
+                      setBuy(false);
+                      setRent(false);
+                      setSell(false);
+                      setLoans(false);
+                      setAgent(!agent);
+                      setRental(false);
+                    })
+                  }
+                >
                   <span className={agent ? scss.span_buy : scss.span}></span>
                 </button>
                 <div className={scss.dropdown_content}>
@@ -248,7 +303,18 @@ function Header() {
             <div className={scss.main_nav}>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.rentals.rentals")}</Link>
-                <button onClick={() => setRental(!rental)}>
+                <button
+                  onClick={() =>
+                    setRental(() => {
+                      setBuy(false);
+                      setRent(false);
+                      setSell(false);
+                      setLoans(false);
+                      setAgent(false);
+                      setRental(!rental);
+                    })
+                  }
+                >
                   <span className={rental ? scss.span_buy : scss.span}></span>
                 </button>
                 <div className={scss.dropdown_content}>

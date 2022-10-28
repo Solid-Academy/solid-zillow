@@ -77,9 +77,9 @@ h3{
   border-right: 1px solid gray;
 }
 .main_nav:last-child .dropdown:first-child .dropdown_content{
-  width: 25%;
+  width: 18%;
   left: 59%;
-  height: 75vh;
+  height: 60vh;
   overflow-y: scroll;
 }
 .main_nav:last-child .dropdown:first-child .content{
@@ -107,6 +107,7 @@ h3{
 
 .content{
   display: flex;
+  margin-top: 1%;
 }
 .content > div:first-child{
   margin-left: 2.5%;
@@ -114,6 +115,7 @@ h3{
 .content > div > h3{
   margin-left: 5%;
   white-space: nowrap;
+  margin-bottom: 2%;
 }
 ul{
   padding: 0;
@@ -170,7 +172,6 @@ ul{
 
 @media (max-width: 890px) {
   header{
-    height: fit-content;
     background-color: rgba(255, 255, 255, 0);
   }
   .container_active{
@@ -399,26 +400,8 @@ ul{
     }
   }
 }
-@media (max-width: 670px) {
-  .active_nav{
-    margin-top: 8%;
-  }
-}
 @media (max-width: 576px) {
   .logo{
     left: 40%;
-  }
-  .active_nav{
-    margin-top: 11%;
-  }
-}
-@media (max-width: 460px) {
-  .active_nav {
-    margin-top: 13%;
-  }
-}
-@media (max-width: 380px) {
-  .active_nav {
-    margin-top: 15%;
   }
 }
