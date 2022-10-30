@@ -1,6 +1,6 @@
 const sliderList = [
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 1,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -9,12 +9,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "San Mateo"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 2,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -23,12 +23,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "Santa Clara"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 3,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -37,12 +37,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: " Alphabet's Google"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 4,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -51,12 +51,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "Silicon Valley"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 5,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -65,13 +65,13 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "Mobile Payments",
     imgDeskNull: ""
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 6,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -80,12 +80,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "Enterprise Software"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 7,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -94,12 +94,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "Belle Haven"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 8,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -108,12 +108,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: " San Jose"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 9,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -122,12 +122,12 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "San Joe"
   },
   {
-    img: "/images/images.jfif",
+    img: "images/carousel/images.jfif",
     id: 10,
     descriptionA: "5 bds ",
     descriptionB: "3 ba",
@@ -136,8 +136,8 @@ const sliderList = [
     descriptionF: "MLS ID #11476694 , RE MAX CITY",
     price: "$350,000",
     descriptionUnder: "1109 N Ridgeway Ave, Chikago",
-    imgLike: "/images/freeIcon.png",
-    imgLikeT: "/images/freeBlue.png",
+    imgLike: "images/carousel/freeIcon.png",
+    imgLikeT: "images/carousel/freeBlue.png",
     imgDesk: "Willow Glen"
   }
 ];
