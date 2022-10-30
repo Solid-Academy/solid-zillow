@@ -13,6 +13,13 @@ function Header() {
   const [agent, setAgent] = useState(false);
   const [rental, setRental] = useState(false);
   const [burger, setBurger] = useState(false);
+
+  const block = document.querySelector("body");
+  block.addEventListener("click", () => {
+    if (burger == true) {
+      block.style.position = "fixed";
+    } else block.style.position = "static";
+  });
   return (
     <>
       <header>
@@ -24,7 +31,7 @@ function Header() {
             >
               <span></span>
             </div>
-            <Link className={burger ? scss.logo_active : scss.logo} to="#">
+            <Link className={burger ? scss.logo_active : scss.logo} to="/">
               <img src="./images/header/z-logo-default.svg" alt="Z-logo-blue" />
               <img src="./images/header/z-logo-white.svg" alt="Z-logo-white" />
             </Link>
@@ -164,10 +171,10 @@ function Header() {
                       <h3>{t("header.buy.resources")}</h3>
                       <ul>
                         <li>
-                          <Link to="#">{t("header.sell.explore")}Explore your options</Link>
-                          <Link to="#">{t("header.sell.zestimate")}See your home's Zestimate</Link>
-                          <Link to="#">{t("header.sell.values")}Home values</Link>
-                          <Link to="#">{t("header.sell.sellers")}Sellers guide</Link>
+                          <Link to="#">{t("header.sell.explore")}</Link>
+                          <Link to="#">{t("header.sell.zestimate")}</Link>
+                          <Link to="#">{t("header.sell.values")}</Link>
+                          <Link to="#">{t("header.sell.sellers")}</Link>
                         </li>
                       </ul>
                     </div>

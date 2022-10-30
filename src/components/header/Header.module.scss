@@ -173,6 +173,10 @@ ul{
 @media (max-width: 890px) {
   header{
     background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+  }
+  h3{
+    margin-top: 1%;
   }
   .container_active{
     position: fixed;
@@ -294,7 +298,7 @@ ul{
     margin: 0 auto;
   }
   .active_nav{
-    margin-top: 7%;
+    margin-top: 6%;
     padding-left: 1%;
     button{
       background-color: #fff;
@@ -353,7 +357,7 @@ ul{
   .dropdown button{
     display: block;
     width: 8%;
-    padding: 2% 0;
+    padding: 1% 0;
     background-color: rgba(255, 255, 255, 0);
     border-left: 1px solid gray;
   }
@@ -364,8 +368,8 @@ ul{
     padding: 3px;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
   .span_buy{
     border: solid blue;
@@ -374,8 +378,8 @@ ul{
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
   .main_nav:last-child .dropdown:last-child{
     display: none;
@@ -387,6 +391,9 @@ ul{
 @media (max-width: 768px) {
   header{
     width: 100%;
+  }
+  .active_nav{
+    margin-top: 8%;
   }
   .dropdown > a{
     width: 89%;
@@ -403,5 +410,13 @@ ul{
 @media (max-width: 576px) {
   .logo{
     left: 40%;
+  }
+  .active_nav{
+    margin-top: 10%;
+  }
+}
+@media (max-width: 400px) {
+  .active_nav{
+    margin-top: 14%;
   }
 }
