@@ -107,6 +107,8 @@
 }
 @media (max-width: 655px) {
   .burger {
+    position: absolute;
+    right: 25px;
     display: block;
   }
   .wrapper {
@@ -130,6 +132,8 @@
 }
 @media (max-width: 538px) {
   .burger {
+    position: absolute;
+    right: 25px;
     display: block;
   }
   .wrapper {
@@ -156,6 +160,8 @@
 }
 @media (max-width: 508px) {
   .burger {
+    position: absolute;
+    right: 25px;
     display: block;
   }
   .wrapper {
@@ -182,6 +188,8 @@
 }
 @media (max-width: 460px) {
   .burger {
+    position: absolute;
+    right: 20px;
     display: block;
   }
   .wrapper {
@@ -208,6 +216,8 @@
 }
 @media (max-width: 425px) {
   .burger {
+    position: absolute;
+    right: 20px;
     display: block;
   }
   .wrapper {
@@ -234,6 +244,8 @@
 }
 @media (max-width: 380px) {
   .burger {
+    position: absolute;
+    right: 8px;
     display: block;
   }
   .wrapper {
@@ -260,7 +272,8 @@
 }
 @media (max-width: 350px) {
   .burger {
-    position: fixed;
+    position: absolute;
+    right: -10px;
     display: block;
   }
   .wrapper {
@@ -285,9 +298,10 @@
     }
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 320px) {
   .burger {
-    position:static;
+    position: absolute;
+    right: -20px;
     display: block;
   }
   .wrapper {
@@ -314,7 +328,8 @@
 }
 @media (max-width: 310px) {
   .burger {
-    position: static;
+    position: absolute;
+    right: -25px;
     display: block;
   }
   .wrapper {
@@ -341,7 +356,8 @@
 }
 @media (max-width: 290px) {
   .burger {
-    position: fixed;
+    position: absolute;
+    right: -20px;
     display: block;
   }
   .wrapper {
