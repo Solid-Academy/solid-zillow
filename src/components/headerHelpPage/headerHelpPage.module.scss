@@ -26,8 +26,8 @@
 }
 .imgButton {
   border: none;
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
 }
 // Adaptive
 @media (max-width: 2560px) {
@@ -145,7 +145,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 40px;
   }
   .submitBlock {
     display: none;
@@ -171,7 +171,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 40px;
   }
   .submitBlock {
     display: none;
@@ -197,7 +197,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 40px;
   }
   .submitBlock {
     display: none;
@@ -223,7 +223,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 35px;
   }
   .submitBlock {
     display: none;
@@ -249,7 +249,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 35px;
   }
   .submitBlock {
     display: none;
@@ -276,7 +276,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 35px;
   }
   .submitBlock {
     display: none;
@@ -285,9 +285,9 @@
     }
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .burger {
-    position: fixed;
+    position:static;
     display: block;
   }
   .wrapper {
@@ -303,7 +303,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 35px;
   }
   .submitBlock {
     display: none;
@@ -314,7 +314,7 @@
 }
 @media (max-width: 310px) {
   .burger {
-    position: fixed;
+    position: static;
     display: block;
   }
   .wrapper {
@@ -330,7 +330,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 35px;
   }
   .submitBlock {
     display: none;
@@ -357,7 +357,7 @@
     background-color: white;
   }
   .img {
-    height: 45px;
+    height: 35px;
   }
   .submitBlock {
     display: none;

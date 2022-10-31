@@ -8,7 +8,7 @@ function HomePage() {
   return (
     // я добавил этот headerHelpPage временно
     // пока Азим не доделает сам header
-    //  так как ешл некуда положить для демонстрации
+    //  так как некуда положить для демонстрации
     <div>
       <HeaderHelpPage />
       <HomeSlider />
