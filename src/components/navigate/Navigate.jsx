@@ -1,7 +1,9 @@
 import css from "./Navigate.module.scss";
 import { NavLinks, HomeLinks } from "../../constants/NavigateLinks";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 function Navigate() {
+  const { t } = useTranslation();
   return (
     <>
       <div className={css.container}>
@@ -9,8 +11,8 @@ function Navigate() {
           <div className={css.left}>
             {NavLinks.map((item) => (
               <div className={css.link}>
-                <Link to="/" key={item.id}>
-                  {item.title}
+                <Link to={item.puth} key={item.id}>
+                  {t("navigate." + item.title)}
                 </Link>
               </div>
             ))}
@@ -18,8 +20,8 @@ function Navigate() {
           <div className={css.right}>
             {HomeLinks.map((item) => (
               <div className={css.link}>
-                <Link to="/" key={item.id}>
-                  {item.title}
+                <Link to={item.puth} key={item.id}>
+                  {t("navigate." + item.title)}
                 </Link>
               </div>
             ))}
