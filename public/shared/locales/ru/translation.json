@@ -1,4 +1,8 @@
 {
+  "headerHelper": {
+    "Submit a request": "Отправить запрос",
+    "Sign in": "Войти"
+  },
   "Slider": {
     "main_titile": "Дом для тебя",
     "description": "На основе домов, которые вы недавно просмотрели"

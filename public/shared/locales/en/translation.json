@@ -1,4 +1,8 @@
 {
+  "headerHelper": {
+    "Submit a request": "Submit a request",
+    "Sign in": "Sign in"
+  },
   "Slider": {
     "main_titile": "Homes For You",
     "description": "Based on homes you recently viewed"
