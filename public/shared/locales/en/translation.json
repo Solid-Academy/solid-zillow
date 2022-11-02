@@ -37,5 +37,21 @@
     "browce": "Browce Homes",
     "options": "See your options",
     "rentals": "Find rentals"
+  },
+  "navigate": {
+    "Professionals": "Professionals",
+    "InfoFor": "Info for Lenders",
+    "CoMarketing": "Co-Marketing(Premier Agent Lender)",
+    "Renters": "Renters",
+    "Homeowners": "Homeowners",
+    "Privacy": "Privacy",
+    "iOS": "iOS Mobile Apps",
+    "Zillow" : "Zillow Homes and IDX Feeds Announcement",
+    "Mortgages": "Mortgages",
+    "Landloars":"Landloars and Property Managers",
+    "HomeBuyers":"Home Buyers",
+    "HomeSellers":"Home Sellers",
+    "AndroidMobileApps":"Android Mobile Apps",
+    "ZillowCanada":"Zillow Canada"
   }
 }
