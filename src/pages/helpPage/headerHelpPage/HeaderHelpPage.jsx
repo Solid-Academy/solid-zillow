@@ -1,6 +1,5 @@
 import scss from "./headerHelpPage.module.scss";
 import { useState } from "react";
-import Modal from "./Modal";
 import { useTranslation } from "react-i18next";
 
 function HeaderHelpPage() {
@@ -16,7 +15,11 @@ function HeaderHelpPage() {
         <button className={scss.burger} onClick={onDropDown}>
           <img className={scss.imgButton} src="/images/headerHelp/burger.webp" alt="" />
         </button>
-        {isModelOpen ? <Modal /> : null}
+        {isModelOpen ? <div className={scss.wrapper}>
+          <hr />
+          <br />
+          <a href="#">{t("headerHelper.Submit a request")}</a>
+        </div> : null}
       </div>
       <div className={scss.submitBlock}>
         <a href="#">{t("headerHelper.Submit a request")}</a>
