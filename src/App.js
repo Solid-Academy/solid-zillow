@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage"
 import HelpPage from "./pages/HelpPage";
 import { PrivateRoute } from "./routes";
 import Dashboard from "./components/dashboard/Dashboard";
@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route exact path="/" element={<PublicRoute Component={HomePage} />} />
+        <Route exact path="/help_page" element={<PublicRoute Component={HelpPage} />} />
         <Route path="/dashboard" element={<PrivateRoute Component={Dashboard} />} />
         <Route path="/help" element={<HelpPage />} />
       </Routes>

@@ -144,7 +144,7 @@
       "options": "See your options",
       "rentals": "Find rentals"
     }
-  }
+  },
   "footer": {
     "information": "Do Not Sell My Personal Information →",
     "zillowGroup": "Zillow Group is committed to ensuring digital accessibility for individuals with disabilities. We are continuously working to improve the accessibility of our webexperience for everyone, and we welcome feedback and accommodation requests. If youwish to report an issue or seek an accommodation, please",
@@ -176,9 +176,15 @@
     "text_1": "Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.",
     "text_2": "No matter what path you take to sell your home, we can help you navigate a successful sale.",
     "text_3": "Your next place is closer than you think. Explore the possibilities, and discover a rental you’ll love.",
-    "browce": "Browce Homes",
-    "options": "See your options",
-    "rentals": "Find rentals"
+    "browce":"Browce Homes",
+    "options":"See your options",
+    "rentals":"Find rentals"
+  },
+  "HelpFooter": {
+    "HelpCenter": "Zillow Help Center",
+    "Language": "English (US)",
+    "LanguageSpanish": "Español",
+    "LanguageChines": "简体中文 "
   },
   "navigate": {
     "Professionals": "Professionals",
