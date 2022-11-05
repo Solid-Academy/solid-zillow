@@ -14,7 +14,7 @@ export default function HelpFooter() {
           <div className={css.dropdown}>
             <button onClick={() => setOpen(!open)}>
               {t("HelpFooter.Language")}{" "}
-              <img src="./images/footer/icons8-chevron-down-24.png" alt="" />
+              <img src="./images/footer/icons8-chevron-down-24.png" alt="arrow_icon" />
             </button>
             {open && (
               <span className={css.dropdown_menu}>

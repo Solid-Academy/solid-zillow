@@ -1,16 +1,18 @@
 import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import HelpPage from "./pages/HelpPage";
 import { PrivateRoute, PublicRoute } from "./routes";
 import Dashboard from "./components/dashboard/Dashboard";
-import HomePage from "./pages/HomePage";
-import HelpFooter from "./pages/helpPage/helpFooter/HelpFooter";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route exact path="/" element={<PublicRoute Component={HomePage} />} />
-        <Route exact path="/help_page" element={<PublicRoute Component={HelpFooter} />} />
+        <Route exact path="/help_page" element={<PublicRoute Component={HelpPage} />} />
         <Route path="/dashboard" element={<PrivateRoute Component={Dashboard} />} />
+        <Route path="/help" element={<HelpPage />} />
       </Routes>
     </div>
   );
