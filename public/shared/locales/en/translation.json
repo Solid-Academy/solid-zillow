@@ -1,8 +1,150 @@
 {
-  "Slider": {
-    "main_titile": "Homes For You",
-    "description": "Based on homes you recently viewed"
+  "header": {
+    "buy": {
+      "buy": "Buy",
+      "home": "Homes for sale",
+      "foreclosures": "Foreclosures",
+      "owner": "For sale by owner",
+      "houses": "Open houses",
+      "construction": "New construction",
+      "coming": "Coming soon",
+      "recent": "Recent home sales",
+      "homes": "All homes",
+      "selling": "Bundle buying & selling",
+      "360": "Buy and sell with Zillow 360",
+      "resources": "Resources",
+      "buyers": "Buyers",
+      "center": "Foreclosure center",
+      "app": "Real estate app"
+    },
+    "rent": {
+      "rent": "Rent",
+      "search": "Search for rentals",
+      "rental": "Rental buildings",
+      "apartments": "Apartments for rent",
+      "houses": "Houses for rent",
+      "listings": "All rental listings",
+      "buildings": "All rental buildings",
+      "hub": "Renter Hub",
+      "contacted": "Contacted rentals",
+      "your": "Your rental",
+      "messages": "Messages",
+      "calculator": "Affordability calculator",
+      "guide": "Renters guide"
+    },
+    "sell": {
+      "sell": "Sell",
+      "explore": "Explore your options",
+      "zestimate": "See your home's Zestimate",
+      "values": "Home values",
+      "sellers": "Sellers guide",
+      "options": "Selling options",
+      "find": "Find a seller's agent",
+      "post": "Post For Sale by Owner"
+    },
+    "loans": {
+      "loans": "Loans",
+      "shop": "Shop mortgages",
+      "mortgage": "Mortgage lenders",
+      "lenders": "HELOC lenders",
+      "rates": "Mortgage rates",
+      "refinance": "Refinance rates",
+      "all": "All mortgage rates",
+      "calculators": "Calculators",
+      "Mortgage": "Mortgage calculator",
+      "Refinance": "Refinance calculator",
+      "Affordability": "Affordability calculator",
+      "Amortization": "Amortization calculator",
+      "Debt": "Debt-to-Income calculator",
+      "reviews": "Lender reviews",
+      "learning": "Mortgage learning center",
+      "app": "Mortgages app",
+      "center": "Lender resource center"
+    },
+    "agent": {
+      "agent": "Agent Finder",
+      "pros": "Looking for pros?",
+      "estate": "Real estate agents",
+      "property": "Property managers",
+      "inspectors": "Home inspectors",
+      "other": "Other pros",
+      "improvement": "Home improvement pros",
+      "builders": "Home builders",
+      "real": "Real estate photographers",
+      "I'm": "I'm a pro",
+      "advertising": "Agent advertising",
+      "center": "Agent resource center",
+      "account": "Create a free agent account",
+      "plan": "Real estate business plan",
+      "scripts": "Real estate agent scripts",
+      "flyer": "Listing flyer templates"
+    },
+    "rentals": {
+      "rentals": "Manage Rentals",
+      "tools": "Rental Management Tools",
+      "rental": "List a rental",
+      "my": "My Listings",
+      "applications": "Applications",
+      "leases": "Leases",
+      "payments": "Payments",
+      "more": "Learn More",
+      "zillow": "Zillow Rental Manager",
+      "price": "Price My Rental",
+      "resource": "Resource Center",
+      "center": "Help Center"
+    },
+    "advertise": "Advertise",
+    "help": "Help",
+    "sign_in": {
+      "sign_in": "Sign in",
+      "homes": "Saved homes",
+      "searches": "Saved searches",
+      "your": "Your home",
+      "hub": "Renter Hub",
+      "settings": "Account settings",
+      "out": "Sign out"
+    }
   },
+    "Slider": {
+      "main_titile": "Homes For You",
+      "description": "Based on homes you recently viewed"
+    },
+    "footer": {
+      "information": "Do Not Sell My Personal Information →",
+      "zillowGroup": "Zillow Group is committed to ensuring digital accessibility for individuals with disabilities. We are continuously working to improve the accessibility of our webexperience for everyone, and we welcome feedback and accommodation requests. If youwish to report an issue or seek an accommodation, please",
+      "letUs": "let us know",
+      "standart": "§ 442-H New York Standard Operating Procedures",
+      "fair": "§ New York Fair Housing Notice",
+      "TREC": "TREC: ",
+      "infoAbout": "Information about brokerage services, Consumer protection notice",
+      "DRE": "California DRE #1522444",
+      "contactZillow": "Contact Zillow, Inc. Brokerage",
+      "listings": "For listings in Canada, the trademarks REALTOR®, REALTORS®, and the REALTOR® logo arecontrolled by The Canadian Real Estate Association (CREA) and identify real estateprofessionals who are members of CREA. The trademarks MLS®, Multiple Listing Service®and the associated logos are owned by CREA and identify the quality of servicesprovided by real estate professionals who are members of CREA. Used under license.",
+      "followUs": "Follow us:",
+      "zillow2006": "© 2006-2022 Zillow",
+      "holds": "Zillow, Inc. holds real estate brokerage ",
+      "licenses": "licenses",
+      "multiple": " in multiple states. Zillow (Canada), Inc. holds real estate brokerage ",
+      "provinse": "in multiple provinces."
+    },
+    "aboveFooter": {
+      "RealEstate": "Real Estate",
+      "Rentalls": "Rentals",
+      "Mortgage": "Mortgage Rates",
+      "Browse": "Browse Homes"
+    },
+    "card": {
+      "Buy_home": "Buy a home",
+      "Sell_home": "Sell a home",
+      "Rent_home": "Rent a home",
+      "text_1": "Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.",
+      "text_2": "No matter what path you take to sell your home, we can help you navigate a successful sale.",
+      "text_3": "Your next place is closer than you think. Explore the possibilities, and discover a rental you’ll love.",
+      "browce": "Browce Homes",
+      "options": "See your options",
+      "rentals": "Find rentals"
+    }
+  }
   "footer": {
     "information": "Do Not Sell My Personal Information →",
     "zillowGroup": "Zillow Group is committed to ensuring digital accessibility for individuals with disabilities. We are continuously working to improve the accessibility of our webexperience for everyone, and we welcome feedback and accommodation requests. If youwish to report an issue or seek an accommodation, please",
