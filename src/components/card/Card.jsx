@@ -15,7 +15,7 @@ function Card() {
               {CardList.map((element) => (
                 <div className={css.card} key={element.id}>
                   <div>
-                    <img className={css.homeImg} src={element.img} alt="" />
+                    <img className={css.homeImg} src={element.img} alt="CardImages" />
                   </div>
                   <div className={css.cardText}>
                     <h1 className={css.title}>{t("card." + element.title)}</h1>
