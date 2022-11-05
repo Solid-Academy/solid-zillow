@@ -10,5 +10,11 @@
         "browce":"Просмотр домов",
         "options":"Просмотреть ваши варианты",
         "rentals":"Найти аренду"
+    },
+    "HelpFooter": {
+      "HelpCenter": "Центер помощи Zillow",
+      "Language": "Английский (Используется)",
+      "LanguageSpanish": "Испанский",
+      "LanguageChines": "Китайский"
     }
 }
