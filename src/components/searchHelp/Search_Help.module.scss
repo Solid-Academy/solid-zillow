@@ -16,7 +16,6 @@
     margin: 0 auto;
 }
 .search_container img{
-    // position: relative;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -35,7 +34,6 @@ form input{
     height: 40px;
     padding-left: 40px;
     padding-right: 20px;
-    // -webkit-appearance: none;
     width: 100%;
 }
 form input:focus{
