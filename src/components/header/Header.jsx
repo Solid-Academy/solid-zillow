@@ -357,7 +357,7 @@ function Header() {
                 <Link to="#">{t("header.advertise")}</Link>
               </div>
               <div className={scss.dropdown}>
-                <Link to="#">{t("header.help")}</Link>
+                <Link to="/help">{t("header.help")}</Link>
               </div>
               <div className={scss.dropdown}>
                 <Link to="#">{t("header.sign_in.sign_in")}</Link>
