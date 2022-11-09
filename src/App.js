@@ -10,9 +10,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<PublicRoute Component={HomePage} />} />
-        <Route exact path="/help_page" element={<PublicRoute Component={HelpPage} />} />
+        <Route exact path="/help" element={<PublicRoute Component={HelpPage} />} />
         <Route path="/dashboard" element={<PrivateRoute Component={Dashboard} />} />
-        <Route path="/help" element={<HelpPage />} />
       </Routes>
     </div>
   );
