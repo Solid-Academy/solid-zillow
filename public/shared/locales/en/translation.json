@@ -204,5 +204,10 @@
     "HomeSellers": "Home Sellers",
     "AndroidMobileApps": "Android Mobile Apps",
     "ZillowCanada": "Zillow Canada"
+  },
+  "searchBlock": {
+    "FindIt": "Find it. Tour it. Own it.",
+    "CurrentLocation": "Current Location",
+    "EnterAnAddress": "Enter an address, neighborhood, city, or ZIP code"
   }
 }

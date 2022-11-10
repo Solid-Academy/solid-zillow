@@ -1,0 +1,103 @@
+.container {
+  width: 100vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: 60% bottom;
+  background-size: cover;
+  background-image: url(../../../public/images/seacrhBlock/ZG_ZPA_08_21_Americana_ExtFront_1081_1440_desktopWebp-2.webp);
+  .searchBlock__content {
+    margin-top: 12vh;
+    width: 40%;
+    h1 {
+      font-size: 36px;
+      line-height: 40px;
+      color: #fff;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 550px;
+      font-family: "Ivar Headline", "Ivar Headline Subset", "Adjusted Times",
+        "Adjusted Times New Roman", "Times New Roman", serif;
+      line-height: 36px;
+      -webkit-filter: drop-shadow(0px 0px 5px #000);
+    }
+    .inputs__content {
+      margin-top: 4vh;
+      input {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        height: 9vh;
+        outline: none;
+        border-radius: 4px;
+        border: 1px solid rgb(81, 177, 255);
+        cursor: pointer;
+        padding-left: 24px;
+        caret-color: #006aff;
+        background-image: url(../../../public/images/seacrhBlock/icons8-поиск-30.png);
+        background-repeat: no-repeat;
+        background-position-x: 98%;
+        background-position-y: center;
+      }
+      input::placeholder {
+        font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        cursor: text;
+      }
+      input:focus-within {
+        border-radius: 4px;
+        box-shadow: 0 0 0px 1px #fff, 0 0 2px 3px #a6e5ff, 0 0 2px 4px #006aff;
+      }
+      .currentLocation__wrapper {
+        position: relative;
+        z-index: 2;
+        width: 99%;
+        margin: 0 auto;
+        height: 7vh;
+        background-color: white !important;
+        background: url(../../../public/images/seacrhBlock/blue_location.png);
+        background-repeat: no-repeat;
+        background-position-x: 20px;
+        background-position-y: 8px;
+        border-radius: 0 0 4px 4px;
+        display: flex;
+        img{
+            width: 35px;
+            height: 35px;
+            padding-top: 5px;
+
+        }
+        padding-left: 20px;
+        p{
+            padding-left: 30px;
+            padding-top: 5px;
+        }
+      }
+      .currentLocation__wrapper:hover{
+        background: url(../../../public/images/seacrhBlock/white_location.png);
+        background-color: rgb(0, 110, 255) !important;
+        background-repeat: no-repeat;
+        background-position-x: 20px;
+        background-position-y: 8px;
+        p{
+            color: white;
+        }
+      }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        visibility: hidden;
+        opacity: 0;
+        &.active {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
