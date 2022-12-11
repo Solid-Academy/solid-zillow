@@ -1,0 +1,384 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerSquare {
+  display: flex;
+  align-content: center;
+}
+.burger {
+  border: none;
+}
+.submitBlock {
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: rgb(0, 106, 255);
+    text-decoration: none;
+  }
+}
+.img {
+  height: 25px;
+}
+.imgButton {
+  border: none;
+  height: 15px;
+  width: 15px;
+}
+// Adaptive
+@media (max-width: 2560px) {
+  .burger {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 100%;
+    background-color: white;
+  }
+  .submitBlock {
+    width: 20%;
+    a {
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .burger {
+    display: none;
+  }
+  .submitBlock {
+    width: 25%;
+    a {
+      font-size: 14px;
+    }
+  }
+  .wrapper {
+    display: none;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 45px;
+  }
+}
+@media (max-width: 768px) {
+  .burger {
+    display: none;
+  }
+  .img {
+    height: 45px;
+  }
+  .wrapper {
+    display: none;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 100%;
+    background-color: white;
+  }
+  .submitBlock {
+    width: 30%;
+    a {
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 655px) {
+  .burger {
+    position: absolute;
+    right: 25px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    width: 100%;
+    background-color: white;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 538px) {
+  .burger {
+    position: absolute;
+    right: 25px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 40px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 508px) {
+  .burger {
+    position: absolute;
+    right: 25px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 40px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .burger {
+    position: absolute;
+    right: 20px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 40px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .burger {
+    position: absolute;
+    right: 20px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 35px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .burger {
+    position: absolute;
+    right: 8px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 35px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 350px) {
+  .burger {
+    position: absolute;
+    right: -10px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 35px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .burger {
+    position: absolute;
+    right: -20px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    width: 100%;
+    background-color: white;
+  }
+  .imgZillow {
+    height: 35px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 310px) {
+  .burger {
+    position: absolute;
+    right: -25px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 35px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 290px) {
+  .burger {
+    position: absolute;
+    right: -20px;
+    display: block;
+  }
+  .wrapper {
+    display: block;
+    a {
+      color: rgb(0, 106, 255);
+      text-decoration: none;
+    }
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    width: 100%;
+    background-color: white;
+  }
+  .img {
+    height: 35px;
+  }
+  .submitBlock {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}

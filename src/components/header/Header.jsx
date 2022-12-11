@@ -22,6 +22,7 @@ function Header() {
   });
   return (
     <>
+      <div>header</div>
       <header>
         <div className={burger ? scss.container_active : scss.container}>
           <div>
